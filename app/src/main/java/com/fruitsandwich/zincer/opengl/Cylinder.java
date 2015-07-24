@@ -60,6 +60,7 @@ public class Cylinder {
         side = ByteBuffer.allocateDirect(12 * (nVert * 2 + 2))
                 .order(ByteOrder.nativeOrder()).asFloatBuffer();
 
+        // TODO: 法線ベクトルの計算
         float dx = topCenter.distance(bottomCenter);
         top.put(new float[]{0, 0, 0});
         bottom.put(new float[]{dx, 0, 0});

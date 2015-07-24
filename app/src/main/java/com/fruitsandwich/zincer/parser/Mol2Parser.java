@@ -84,6 +84,9 @@ public class Mol2Parser {
             case 'C':
                 type = Mol2.AtomType.C;
                 break;
+            case 'P':
+                type = Mol2.AtomType.P;
+                break;
             default:
                 type = Mol2.AtomType.Unknown;
         }

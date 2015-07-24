@@ -39,7 +39,9 @@ public class Mol2 {
         H(new Color(0.8f, 0.8f, 0.8f), 0.2f),
         O(new Color(0.8f, 0.2f, 0.2f), 0.5f),
         N(new Color(0.2f, 0.2f, 0.8f), 0.4f),
+        P(new Color(0.2f, 0.8f, 0.2f), 0.7f),
         S(new Color(0.8f, 0.8f, 0.2f), 1.0f),
+
         Unknown(new Color(0f, 0f, 0f, 1f), 1.0f);
 
         private Color color;
